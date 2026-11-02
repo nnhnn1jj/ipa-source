@@ -10,7 +10,12 @@
     "com.local.danmaku.assistant",
     "com.rileytestut.Delta",
     "app.ish.iSH",
-    "com.utmapp.UTM"
+    "com.utmapp.UTM",
+    "org.ppsspp.ppsspp",
+    "app.aidoku.Aidoku",
+    "com.XITRIX.iTorrent",
+    "com.rileytestut.AltStore",
+    "com.SideStore.SideStore"
   ],
   "apps": [
     {
@@ -97,6 +102,121 @@
           "date": "2026-10-17",
           "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
           "size": 150556413,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "PPSSPP",
+      "bundleIdentifier": "org.ppsspp.ppsspp",
+      "developerName": "PPSSPP Team",
+      "subtitle": "PSP 模拟器",
+      "localizedDescription": "开源 PSP 模拟器，支持大部分 PSP 游戏。",
+      "iconURL": "https://github.com/hrydgard.png",
+      "tintColor": "#5CA399",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.20.4",
+          "date": "2026-05-16",
+          "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
+          "size": 31124277,
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Aidoku",
+      "bundleIdentifier": "app.aidoku.Aidoku",
+      "developerName": "Aidoku",
+      "subtitle": "开源漫画阅读器",
+      "localizedDescription": "支持自定义源的漫画阅读器，界面干净、可离线缓存。",
+      "iconURL": "https://github.com/Aidoku.png",
+      "tintColor": "#5CA399",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.9-4",
+          "date": "2026-10-16",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+          "size": 14753154,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "iTorrent",
+      "bundleIdentifier": "com.XITRIX.iTorrent",
+      "developerName": "XITRIX",
+      "subtitle": "BT 下载器",
+      "localizedDescription": "手机上跑 BT 下载，支持后台下载和磁力链接。",
+      "iconURL": "https://github.com/XITRIX.png",
+      "tintColor": "#5CA399",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.2.0-1",
+          "date": "2026-07-19",
+          "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+          "size": 24288935,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "AltStore",
+      "bundleIdentifier": "com.rileytestut.AltStore",
+      "developerName": "Riley Testut",
+      "subtitle": "自签工具",
+      "localizedDescription": "老牌自签工具，可以自己续签 App。",
+      "iconURL": "https://github.com/altstoreio.png",
+      "tintColor": "#5CA399",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.3",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/altstoreio/AltStore/releases/download/v2.3/AltStore_Classic_Notarized_2_3.ipa",
+          "size": 40616419,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "SideStore",
+      "bundleIdentifier": "com.SideStore.SideStore",
+      "developerName": "SideStore",
+      "subtitle": "免电脑自签",
+      "localizedDescription": "手机端自签工具，不需要一直连着电脑。",
+      "iconURL": "https://github.com/SideStore.png",
+      "tintColor": "#5CA399",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.7.0-alpha",
+          "date": "2026-09-15",
+          "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.7.0-alpha/SideStore.ipa",
+          "size": 27770821,
           "minOSVersion": "14.0"
         }
       ],
