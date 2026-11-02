@@ -1,0 +1,38 @@
+{
+  "name": "小肥鱼源",
+  "identifier": "com.nnhnn1jj.source",
+  "subtitle": "自用 ipa 源",
+  "description": "自家打包的 App，每天自动构建。",
+  "iconURL": "https://github.com/nnhnn1jj.png",
+  "headerURL": "https://github.com/nnhnn1jj.png",
+  "tintColor": "#5CA399",
+  "featuredApps": [
+    "com.local.danmaku.assistant"
+  ],
+  "apps": [
+    {
+      "name": "弹幕助手",
+      "bundleIdentifier": "com.local.danmaku.assistant",
+      "developerName": "nnhnn1jj",
+      "subtitle": "本地视频 + B站弹幕",
+      "localizedDescription": "导入本地视频播放，叠加 B站/弹弹play 弹幕。iOS 版只能播 App 内的视频，不能浮在别的播放器上。",
+      "iconURL": "https://github.com/nnhnn1jj.png",
+      "tintColor": "#5CA399",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-11-02",
+          "downloadURL": "https://github.com/nnhnn1jj/danmaku-ios/releases/download/latest/DanmakuIOS.ipa",
+          "size": 142819,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
