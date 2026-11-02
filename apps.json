@@ -2,12 +2,15 @@
   "name": "小肥鱼源",
   "identifier": "com.nnhnn1jj.source",
   "subtitle": "自用 ipa 源",
-  "description": "自家打包的 App，每天自动构建。",
+  "description": "开源 App 打包，每天自动更新。",
   "iconURL": "https://github.com/nnhnn1jj.png",
   "headerURL": "https://github.com/nnhnn1jj.png",
   "tintColor": "#5CA399",
   "featuredApps": [
-    "com.local.danmaku.assistant"
+    "com.local.danmaku.assistant",
+    "com.rileytestut.Delta",
+    "app.ish.iSH",
+    "com.utmapp.UTM"
   ],
   "apps": [
     {
@@ -15,17 +18,86 @@
       "bundleIdentifier": "com.local.danmaku.assistant",
       "developerName": "nnhnn1jj",
       "subtitle": "本地视频 + B站弹幕",
-      "localizedDescription": "导入本地视频播放，叠加 B站/弹弹play 弹幕。iOS 版只能播 App 内的视频，不能浮在别的播放器上。",
+      "localizedDescription": "导入本地视频播放，叠加 B站/弹弹play 弹幕。",
       "iconURL": "https://github.com/nnhnn1jj.png",
       "tintColor": "#5CA399",
       "category": "utilities",
       "versions": [
         {
-          "version": "1.0",
+          "version": "latest",
           "date": "2026-11-02",
           "downloadURL": "https://github.com/nnhnn1jj/danmaku-ios/releases/download/latest/DanmakuIOS.ipa",
           "size": 142819,
           "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Delta",
+      "bundleIdentifier": "com.rileytestut.Delta",
+      "developerName": "Riley Testut",
+      "subtitle": "多合一游戏模拟器",
+      "localizedDescription": "支持 NES / SNES / N64 / GBA / NDS / Genesis 等经典主机的开源模拟器。",
+      "iconURL": "https://github.com/rileytestut.png",
+      "tintColor": "#5CA399",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.6",
+          "date": "2024-07-11",
+          "downloadURL": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
+          "size": 87734964,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "iSH",
+      "bundleIdentifier": "app.ish.iSH",
+      "developerName": "iSH Team",
+      "subtitle": "iOS 上的 Linux 终端",
+      "localizedDescription": "在 iPhone 上跑一个 Alpine Linux shell，支持包管理。",
+      "iconURL": "https://github.com/ish-app.png",
+      "tintColor": "#5CA399",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "builds/494",
+          "date": "2023-05-20",
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa",
+          "size": 4232682,
+          "minOSVersion": "11.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "developerName": "UTM Team",
+      "subtitle": "虚拟机：跑 Windows / Linux",
+      "localizedDescription": "基于 QEMU 的开源虚拟机，可安装 arm64 的 Windows 和 Linux。",
+      "iconURL": "https://github.com/utmapp.png",
+      "tintColor": "#5CA399",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "5.0.8",
+          "date": "2026-10-17",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.ipa",
+          "size": 150556413,
+          "minOSVersion": "14.0"
         }
       ],
       "appPermissions": {
